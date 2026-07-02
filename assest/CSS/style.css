@@ -1,0 +1,308 @@
+/* Basec SetUp */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Upper Section */
+.upper-container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 4px;
+    background: rgb(11, 20, 39);
+    color: white;
+    border-radius: 1px;
+    text-align: center;
+}
+.upper-container .upper2 {
+    margin-right: 10px;
+}
+
+/* Nav section */
+.nav-container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    background: #215E61;
+}
+.nav-container .container {
+    font-size: 30px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.nav-container .container h3 span {
+    color: rgb(7, 177, 7);
+}
+.nav-container .input {
+    margin-top: -50px;
+}
+.nav-container .input input {
+    margin-top: 25px;
+    font-size: 20px;
+    border: 2px solod rgb(1, 14, 22);
+    border-radius: 5px;
+    padding: 3px;
+    width: 400px;
+    outline: black;
+    cursor: pointer;
+}
+.nav-container .input button span {
+    font-size: 20px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.list {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 20px;
+    transition: 0.5s;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+}
+.list .wish-list {
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.list .wish-list:hover {
+    color: rgb(3, 179, 26);
+    transition: 0.5s;
+}
+.list .wish-list p {
+    margin-top: -5px;
+}
+.list .account {
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.list .account:hover {
+    color: rgb(3, 179, 26);
+    transition: 0.5s;
+}
+.list .account p {
+    margin-top: -5px;
+}
+.list .card {
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.list .card:hover {
+    color: rgb(3, 179, 26);
+    transition: 0.5s;
+}
+.list .card p {
+    margin-top: -5px;
+}
+.sub-nav ul {
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: start;
+    margin-top: -25px;
+    background: #FFBDA3;
+    padding: 10px;
+}
+.sub-nav ul li a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition: 0.5s;
+}
+.sub-nav ul li a:hover {
+    color: rgb(14, 158, 103);
+    transition: 0.5s;
+}
+
+/* Hero Section */
+.hero-container {
+    background-image: linear-gradient(rgba(182, 35, 35, 0.5), rgba(87, 50, 50, 0.4)), url('../img/hero-section.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding: 150px;
+    text-align: center;
+    margin-top: -20px;
+}
+.hero-container span {
+    color: rgb(241, 238, 238);
+    font-size: 30px;
+}
+.hero-container h1 {
+    font-size: 50px;
+    color: rgb(14, 13, 13);
+}
+.hero-container p {
+    font-size: 20px;
+    color: #FFBF00;
+}
+.hero-container button {
+    background: #FFF78D;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: 0.5s;
+    cursor: pointer;
+}
+.hero-container button:hover {
+    background: #FFBF00;
+    color: black;
+    transition: 0.5d;
+}
+
+/* Shop Section */
+.container .text-container {
+    text-align: center;
+    font-size: 30px;
+}
+.container .product-container {
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.container .product-container .smartphone img {
+    margin-top: 15px;
+}
+.container .product-container .smartphone h4 {
+    font-size: 20px;
+    margin-top: -1px;
+}
+.container .product-container .smartphone p {
+    font-size: 15px;
+    margin-top: -20px;
+}
+.container .product-container .smartphone {
+    border: 0.1px solid silver;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container .product-container .smartphone:hover {
+    color: black;
+    background: rgb(245, 218, 218);
+}
+
+/* Flash Sale Section */
+.flase-container {
+    margin-top: 50px;
+}
+.flase-container .text-container {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+}
+.flase-container .pro-container {
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.flase-container .pro-container .product-container {
+    border: 0.1px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.flase-container .pro-container .product-container:hover {
+    margin-top: -10px;
+    transition: 0.5s;
+}
+.flase-container .pro-container .product-container h3 {
+    font-size: 25px;
+}
+.flase-container .pro-container .product-container p {
+    font-size: 20px;
+    margin-top: -20px;
+}
+.flase-container .pro-container .product-container button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    transform: 0.5s;
+    cursor: pointer;
+    background: #443199;
+    font-size: 20px;
+    color: white;
+    margin-top: -5px;
+    width: 100%;
+}
+.flase-container .pro-container .product-container button:hover {
+    background: #1F6F5F;
+    color: black;
+}
+
+/* Featured Products*/
+.featured-container {
+    margin-top: 50px;
+}
+.featured-container .text-container {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+}
+.featured-container .pro-container {
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.featured-container .pro-container .product-container {
+    border: 0.1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.featured-container .pro-container .product-container p {
+    font-size: 30px;
+    color: black;
+}
+.featured-container .pro-container .product-container button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    transform: 0.5s;
+    cursor: pointer;
+    background: #007979;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+}
+.featured-container .pro-container .product-container button:hover {
+    background: #443199;
+    color: white;
+    transition: 0.5s;
+    margin-top: -5px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    text-align: start;
+    background: #DCF0C3;
+    padding: 10px;
+}
+footer .footer-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .footer-container .text-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
